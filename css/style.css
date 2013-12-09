@@ -1,0 +1,66 @@
+body{
+  background-color: gray;
+}
+
+.container{
+  background-color: white;
+}
+
+.menu-noti, .menu-prof{
+  background-size: 30px 30px;
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  float: left;
+}
+
+.banner{
+  margin-bottom: -5px;
+  width: 1140px;
+}
+
+.menu-prof{
+  background-image: url("../images/profile.png");
+}
+
+.menu-noti{
+  background-image: url("../images/messages.png");
+}
+
+.noti-drop{
+  width: 500px;
+}
+
+.noti-image{
+  width: 30px;
+  margin-right: 10px;
+}
+
+.logo{
+  float: right;
+  padding: 7px;
+}
+
+.logo-foot{
+  padding: 7px;
+  float: left;
+}
+
+.logo img, .logo-foot img{
+  height: 30px;
+}
+
+.company-name{
+  color: white;
+  float: right;
+  padding: 10px;
+}
+
+.main-content{
+  overflow: auto;
+  min-height: 600px;
+}
